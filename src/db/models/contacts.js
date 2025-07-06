@@ -30,8 +30,11 @@ const contactsSchema = new Schema(
       ref: 'users',
       required: true,
     },
+    photo: {
+      type: String,
+    },
   },
-  { timestamps: true },
+  { timestamps: true, versionKey: false },
 );
 
 export const Contacts = model('contacts', contactsSchema);
