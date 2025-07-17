@@ -84,30 +84,6 @@
           },
           {
             "in": "query",
-            "name": "name",
-            "schema": {
-              "type": "string"
-            },
-            "description": "Filter contacts by name (partial match)"
-          },
-          {
-            "in": "query",
-            "name": "phoneNumber",
-            "schema": {
-              "type": "string"
-            },
-            "description": "Filter contacts by phone number (partial match)"
-          },
-          {
-            "in": "query",
-            "name": "email",
-            "schema": {
-              "type": "string"
-            },
-            "description": "Filter contacts by email (partial match)"
-          },
-          {
-            "in": "query",
             "name": "isFavourite",
             "schema": {
               "type": "boolean"
